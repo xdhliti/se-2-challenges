@@ -122,7 +122,7 @@ const Streamer: NextPage = () => {
       /*
        *  Checkpoint 3:
        *
-       *  currently, this function recieves and stores vouchers uncritically.
+       *  currently, this function receives and stores vouchers uncritically.
        *
        *  recreate the packed, hashed, and arrayified message from reimburseService (above),
        *  and then use verifyMessage() to confirm that voucher signer was
@@ -390,7 +390,7 @@ const Streamer: NextPage = () => {
                   </div>
 
                   {/* Checkpoint 5: challenge & closure */}
-                  {/* <div className="flex flex-col items-center pb-6">
+                   <div className="flex flex-col items-center pb-6">
                     <button
                       disabled={challenged.includes(userAddress)}
                       className="btn btn-primary"
@@ -428,7 +428,7 @@ const Streamer: NextPage = () => {
                     >
                       Close and withdraw funds
                     </button>
-                  </div> */}
+                  </div> 
                 </div>
               ) : userAddress && closed.includes(userAddress) ? (
                 <div className="text-lg">
